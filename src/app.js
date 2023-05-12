@@ -8,7 +8,7 @@ import './styles.css';
  */
 function App({store}) {
 
-    const list = store.getState().list;
+  const list = store.getState().list;
 
     return (
         <div className='App'>
